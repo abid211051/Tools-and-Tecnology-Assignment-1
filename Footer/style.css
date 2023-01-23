@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comfortaa", cursive;
+}
+/*position: absoulate, relative*/
+.outerbox{
+    background-color: #460057;
+    width: 900px;
+    height: 350px;
+    margin: 0 auto;
+    transform: translateY(50%);
+}
+.mainbox{
+    height: 75%;
+    display: flex;
+    justify-content: flex-start;
+}
+.maindiv1{
+    width: 380px;
+    position: relative;
+    color: aliceblue;
+
+}
+.maindiv2{
+    width: 330px;
+    position: relative;
+    padding-right: 10px;
+    color: aliceblue;
+
+}
+.maindiv3{
+    width: 190px;
+    padding: relative;
+    padding-left: 10px;
+    font-size: 1rem;
+    color: aliceblue;
+
+}
+.maindiv1 h1{
+    position: absolute;
+    top: 45px;
+    left: 30px;
+    font-size: 2.3rem;
+}
+#div2head1{
+    position: absolute;
+    top: 50px;
+    font-size: 1.2rem;
+}
+#div2head2{
+    position: absolute;
+    top: 100px;
+}
+#div2head3{
+    position: absolute;
+    top: 155px;
+}
+#div2head4{
+    position: absolute;
+    top: 175px;
+}
+#hr1{
+    position: relative;
+    top: 125px;
+}
+#div3head1{
+    position: absolute;
+    top: 60px;
+}
+#div3head2{
+    position: absolute;
+    top: 100px;
+}
+#div3head3{
+    position: absolute;
+    top: 140px;
+}
+#div3head4{
+    position: absolute;
+    top: 180px;
+}
+
+.footbox h5{
+    font-family: sans-serif;
+    font-weight: 600;
+    color: aliceblue;
+    padding-top: 20px;
+    padding-left: 20px;
+}

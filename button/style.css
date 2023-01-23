@@ -1,0 +1,94 @@
+.container{
+    height: 150px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(2,180px);
+    grid-template-rows: repeat(2,40px);
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    /* background-image: linear-gradient(to bottSom right, rgb(124, 223, 232), rgb(172, 212, 203)); */
+    margin: 200px 500px;
+}
+.log{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    background-image: linear-gradient(to bottom right, rgb(238, 119, 34), yellow);
+    border-radius: 40px;
+    border: 0;
+    grid-column: 1/2;
+}
+.log p{
+    /* grid-column: 1/2; */
+    align-self: center;
+    
+}
+.log img{
+    width: 20px;
+    height: 20px;
+    align-self:center;
+}
+.add{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    background-image: radial-gradient(rgb(242, 242, 234), rgb(179, 179, 175), rgb(141, 144, 141));
+    border-radius: 40px;
+    border: 0;
+    grid-column: 2/-1;
+}
+.add p{
+    /* grid-column: 1/2; */
+    align-self: center;
+    
+}
+.add img{
+    width: 20px;
+    height: 20px;
+    align-self:center;
+}
+.dow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    background-image: linear-gradient(to top, rgb(98, 76, 4), rgb(239, 207, 101));
+    border-radius: 40px;
+    border: 0;
+    grid-row: 2;
+    grid-column: 1/2;
+}
+.dow p{
+    /* grid-column: 1/2; */
+    align-self: center;
+    
+}
+.dow img{
+    width: 20px;
+    height: 20px;
+    align-self:center;
+}
+.com{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    background-image: radial-gradient(circle, rgb(197, 184, 119), rgb(196, 171, 70), rgb(101, 85, 7));
+    border-radius: 40px;
+    border: 0;
+    grid-row: 2;
+    grid-column: 2/-1;
+}
+.com p{
+    /* grid-column: 1/2; */
+    align-self: center;
+    
+}
+.com img{
+    width: 20px;
+    height: 20px;
+    align-self:center;
+}

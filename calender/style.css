@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: paleturquoise;
+}
+.mainbox {
+    width: 50vw;
+    height: 60vh;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+}
+
+.innerbox-cal {
+    background-color: black;
+    grid-column: 1/-1;
+    width: 1fr;
+    height:1fr;
+}
+
+.innerbox-day{
+    width: 1fr;
+    height: 1fr;
+    background-color: whitesmoke;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    box-shadow: 0px 2px 2px rgb(162, 159, 159);
+}
+.innerbox-exc{
+    width: 1fr;
+    height: 1fr;
+    background-color:whitesmoke;
+    margin: 2px;
+    box-shadow: 2px 2px 2px rgb(162, 159, 159);
+}
+.innerbox{
+    width: 1fr;
+    height: 1fr;
+    background-color: gainsboro;
+    margin: 2px;
+    box-shadow: 2px 2px 2px rgb(162, 159, 159);
+}
+.innerbox-cal h1{
+    color: white;
+    text-align: center;
+    font-size: 2.7rem;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.innerbox-day h3{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.3rem;
+}
+.innerbox-exc h3{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.innerbox h3{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}

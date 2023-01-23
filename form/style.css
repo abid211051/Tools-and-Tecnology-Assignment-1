@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.outer-box {
+  background: linear-gradient(to left top, #36d1dc, #5b86e5);
+  width: 100vw;
+  height: 100vh;
+}
+
+.headsec h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #373e04;
+}
+
+.mainsec {
+  margin: 15px 0;
+}
+
+.inner-box {
+  background:linear-gradient(349deg, rgba(2,0,36,1) 0%, rgba(147,164,0,1) 0%, rgba(0,212,255,1) 88%);
+  backdrop-filter: blur(3px);
+  width: 350px;
+  border-radius: 20px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 20px 40px;
+  box-shadow: 6px 6px 10px #1d2671;
+  z-index: 1;
+}
+
+.mainsec p label {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.mainsec p input {
+  width: 100%;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  padding: 10px 0;
+  border: 2px solid rgb(131, 129, 129);
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px rgb(51, 50, 50);
+  font-weight: 400;
+}
+
+#submit {
+  background-color: #2d90c6;
+  font-size: 1.5rem;
+  color: #370404;
+}
+
+#submit:hover {
+  background-color: #4939bf;
+  cursor: pointer;
+  color: aliceblue;
+}
+
+.footsec {
+  margin-left: 20px;
+  font-size: 1rem;
+}
+
+.footsec a {
+  margin-left: 5px;
+  color: blue;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  position: absolute;
+  background: linear-gradient(to right, #36d1dc, #5b86e5);
+}
+
+.c1 {
+  top: 70px;
+  left: 30px;
+}
+
+.c2 {
+  bottom: 100px;
+  right: 30px;
+}
